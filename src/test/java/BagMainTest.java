@@ -18,9 +18,9 @@ public class BagMainTest {
     @Before
     public void setUp() throws Exception {
         bags = new Bag[] {new HandBag("Blue", 2),
-                          new CrossbodyBag("Red", 3, 2),
-                          new HandBag("Yellow", 4),
-                          new CrossbodyBag("Orange", 5, 4)};
+                new CrossbodyBag("Red", 3, 2),
+                new HandBag("Yellow", 4),
+                new CrossbodyBag("Orange", 5, 4)};
     }
 
     @Test(timeout = 50)

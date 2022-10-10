@@ -28,12 +28,11 @@ public abstract class Bag {
      * its contents.)
      */
     public Bag(String color, int capacity) {
-        String[] emptyBag = new String[capacity];
 
         this.color = color;
         this.capacity = capacity;
         this.numberOfContents = 0;
-        this.contents = emptyBag;
+        this.contents = new String[capacity];
     }
 
     /*
